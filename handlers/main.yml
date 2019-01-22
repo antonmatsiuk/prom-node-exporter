@@ -1,0 +1,5 @@
+---
+# handlers file for node-prom-exporter
+- name: restart node_exporter
+  service: name=node_exporter state=restarted
+  become: yes

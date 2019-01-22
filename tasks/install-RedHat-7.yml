@@ -1,0 +1,10 @@
+---
+- name: add node-exporter repository
+  uri:
+    url: "{{ rhel_repo_url }}"
+    dest: /etc/yum.repos.d/
+  become: yes
+
+- name: install node-exporter on RHEL7
+  package: name=node_exporter state=present
+  become: yes

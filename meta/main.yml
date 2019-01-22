@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Anton Matsiuk
+  description: Prometheus node exporter on CentOS7 / RHEL7
+  company: Facelift BBT
+  issue_tracker_url: https://github.com/antonmatsiuk/prom-node-exporter/issues
+  license: "license (MIT, BSD)"
+  min_ansible_version: 2.4
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+  - prometheus
+  - node_exporter
+  - monitoring

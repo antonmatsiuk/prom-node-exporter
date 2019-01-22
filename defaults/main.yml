@@ -1,0 +1,4 @@
+---
+# defaults file for node-prom-exporter
+node_exporter_port: 9100
+node_exporter_ip: "0.0.0.0"
