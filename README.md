@@ -12,15 +12,12 @@ Role Variables
 --------------
 Available variables with default values (see defaults/main.yml):
 
-Port to listen for node_exporter:
-```
-node_exporter_port: 9100
-```
-IP Address to listen for node_exporter. Change to an appropriate value e.g. `{{ ansible_eth0.ipv4.address }}` to 
-listen on a specific interface:
-```
-node_exporter_ip: "0.0.0.0"
-```
+IP and Port on which node_exporter listens. Change IP to an appropriate value e.g. `{{ ansible_eth0.ipv4.address }}` 
+to listen on a specific interface:
+
+    node_exporter_port: 9100
+    node_exporter_ip: "0.0.0.0"
+
 
 Dependencies
 ------------
